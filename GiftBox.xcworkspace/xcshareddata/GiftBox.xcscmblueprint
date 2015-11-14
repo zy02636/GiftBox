@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11d11ce1-5a4f-0410-bd9e-e5b53e84f232++7608",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "11d11ce1-5a4f-0410-bd9e-e5b53e84f232++7608" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11d11ce1-5a4f-0410-bd9e-e5b53e84f232++7608" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4777C544-8EF0-4381-AC49-C7B882E07327",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11d11ce1-5a4f-0410-bd9e-e5b53e84f232++7608" : "GiftBox\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GiftBox",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GiftBox.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.sogou-inc.com\/svn\/qadev",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11d11ce1-5a4f-0410-bd9e-e5b53e84f232++7608"
+    }
+  ]
+}

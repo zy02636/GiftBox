@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0162030BFF498DD824FFD66844780E67 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF5CE45FFEC89E0AC2A4A493964807 /* Pods-dummy.m */; };
+		024D665D36C20F59EFB1C29C68534B72 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE5055842E848F75BFBD74CB20A224A /* JSONKeyMapper.h */; };
+		02FBBB8CAC770ACCD66EA0EE79A13CDC /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C80E17034167439E74FFD71740317E /* NSArray+JSONModel.h */; };
+		09F8823AFD877C3783091B22BCBBBF18 /* TheSidebarController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB5752A1899778A704F021D74D11359 /* TheSidebarController.h */; };
+		0BC7AE7702889DADB3AA13B7D4518A6B /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF0718807F76EA527DDDC8A5DB36F17 /* JSONModelArray.h */; };
+		0F9134C2268208D3AD1642C6889FCA92 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E76BE2D78F07B07852FAD351F98CAD5 /* JSONModelClassProperty.h */; };
+		21E65C0A7A2003415FBA3C0467AD8D99 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C80C6776CF1881195D9EB20A53E1D /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29019B4ED2797AF4532BFE52B12E2C96 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7E241195F91CB9D9027BE9D63AE0E9 /* JSONModelLib.h */; };
+		2926B46ECB68DC92D28C783FDD2386BF /* SidebarLuvocracyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944D3A4720C11A77F204EFCC24B5F17 /* SidebarLuvocracyAnimation.m */; };
+		2C0B97602C4BC2790385D2CC1324410C /* SidebarFeedlyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CCC978018997BF62C923577A1EDABA /* SidebarFeedlyAnimation.h */; };
+		2E4FE14B51643E88E1CC0A2953D01F09 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4758EC137F17AE291DDFFCCEF07B85 /* JSONModelError.h */; };
+		3FA7EC45299CA66E1513343B64BCED25 /* SidebarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 582FC94E2C10C9B1CBE44F79067BBC90 /* SidebarAnimation.m */; };
+		4503C77A863B96E8C0AA278FC9595772 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E471A3D7705A5CF057465A3D91712AE /* JSONAPI.h */; };
+		4660E11986FB84C73C40025B9DA113FC /* SidebarFacebookAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6503551BFB4BA8FA8AE1370C27530645 /* SidebarFacebookAnimation.h */; };
+		4906BE25FB4083C663A491186DA33606 /* SidebarWunderlistAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8C71EBE0188CBB2E0DF8147D9517D /* SidebarWunderlistAnimation.h */; };
+		4E3C7FF17DE8306D7D674166D4B701C0 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EC5FA115834249B5980049635D1011 /* JSONAPI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		612E638A3476042E4C2361036EB8BD7C /* SidebarFeedlyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C03B79647C42C22414969EE92C4081D6 /* SidebarFeedlyAnimation.m */; };
+		62763B919BB9810C741D5168B3B6BE6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4616BFD05EF75A4C72E1184FA379137F /* Foundation.framework */; };
+		65ECF33DA524107FC927808284A98C34 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC06B99C83F9901E454D88B93C6082E /* JSONModel.h */; };
+		7587EF6FF24B4D3DE9E317D65E701506 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB82C9553A005C2C50A6D1C6F6366D /* JSONKeyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77EACEC15AF5450F43D3F980C7BD68ED /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = F28354428C4AAF582B4B329174F43CCF /* JSONModel+networking.h */; };
+		8143A4118BEC30F2A26BB2E3C0A5F57D /* SidebarFlipboardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CD462A0F6723CA20AFEEBD02D38F70 /* SidebarFlipboardAnimation.m */; };
+		82F33F10C078B517DB84871CAA717E93 /* TheSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6255F191E3C95CDB2326971951A9A550 /* TheSidebarController.m */; };
+		8525440CBBC203DE3757B08F3ABB08F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4616BFD05EF75A4C72E1184FA379137F /* Foundation.framework */; };
+		8CBB6198EE6BA280852C6659D8553023 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C9C848EC925195BD95A7F54715DF2E /* JSONValueTransformer.h */; };
+		9CAED1CA271F37823A3861751F6F5DF8 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8DCE51425E84C6009E89C3AED21A0 /* JSONModel+networking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E02DB7A5DD9BD587833884751C93DC8 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03069614DDF0747DE8BB1C3B84860FE7 /* NSArray+JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A135F0A056C1073BC2620A3563A344E2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB3FD1A728BF13754611C064B6C67 /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A67E5BF7965D04A12FA01C1B996046EF /* SidebarAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 191A6F031C512EAA01743FD066FD124F /* SidebarAnimation.h */; };
+		A8F7F3FC7E2937DD88FE8DC8477E6F5B /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B380999BDFDA2C452AC70435C710A526 /* JSONModelClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B06FB2F5B446F145B6211C5C68A2C299 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3E655825D8AC796E6D262908DDF937 /* JSONModel-dummy.m */; };
+		B8881BD1A07D1F11A40FD1BB8459B7C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34F5A132BD3496F22D4E058EB1F960B /* QuartzCore.framework */; };
+		B8C8E1837D85AEBB9A9570B70638AE69 /* SidebarWunderlistAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9853553887856251C0233ED3B5E83F1 /* SidebarWunderlistAnimation.m */; };
+		C73E3FACBB67F24718CA9F1D88148162 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF09E42BA8CB0EA01B3CE2D9A25FBCA /* JSONHTTPClient.h */; };
+		D5DCD181474A8BF3B416EB2EEEFECE0B /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C30C05996BB65274FB1B75DD4DC09 /* JSONValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7A419F0D2C42A14AC9F410CC8922C6F /* SidebarFacebookAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A40CF000CC95539F47F37CB2CCADA1B /* SidebarFacebookAnimation.m */; };
+		DDCBC87617ACD8F29663C08B5647716C /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 025506A023C98258C2A93B111AC4ADC0 /* JSONModelError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E11C2037E6F7DC4C257FEF9D5E2A52AC /* TheSidebarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AD57090C334BBA22E94CFA52C7F1A /* TheSidebarController-dummy.m */; };
+		E7428F635C86D37360BFFD83112DCA82 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B7849CDFD77FFD17E9CFBC06887C01 /* JSONModelArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F0F025353A79744EFC2FED138572284D /* SidebarFlipboardAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FF0EE0AECD94114456CC423794DB75 /* SidebarFlipboardAnimation.h */; };
+		F3B5A0E05816B1EC5BB5DC5130ED4252 /* SidebarLuvocracyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D37E30034DD8A99834C1FE24219804 /* SidebarLuvocracyAnimation.h */; };
+		F52E4D15EF6E96A903F032D7C0EF17ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4616BFD05EF75A4C72E1184FA379137F /* Foundation.framework */; };
+		F8B0AF39892DFCB7609886CE3E4E8338 /* SidebarAirbnbAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68362D7D44BAB212E244D6D0E6465527 /* SidebarAirbnbAnimation.h */; };
+		FC5AC9C84DC3BF2A8905B4E58F3AD5FD /* SidebarAirbnbAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9466689AD779316D6E07DC74880B28D /* SidebarAirbnbAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E46DCAFA3BF0C1427ACB7C891585986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3415A5790FF7A6C7EF81899760150B4C;
+			remoteInfo = TheSidebarController;
+		};
+		D641B94BF2492937F24F76AD8863F270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB36203D275715A7D55491EA4DEA0228;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025506A023C98258C2A93B111AC4ADC0 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		03069614DDF0747DE8BB1C3B84860FE7 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		0C629108B299B63A6B57083D273EC1BC /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		191A6F031C512EAA01743FD066FD124F /* SidebarAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarAnimation.h; path = TheSidebarController/Animations/SidebarAnimation.h; sourceTree = "<group>"; };
+		1BF0718807F76EA527DDDC8A5DB36F17 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		1E471A3D7705A5CF057465A3D91712AE /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		36EF5CE45FFEC89E0AC2A4A493964807 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		39C9C848EC925195BD95A7F54715DF2E /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		3DA8C71EBE0188CBB2E0DF8147D9517D /* SidebarWunderlistAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarWunderlistAnimation.h; path = TheSidebarController/Animations/SidebarWunderlistAnimation.h; sourceTree = "<group>"; };
+		4616BFD05EF75A4C72E1184FA379137F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4781B70137E6C21A6C6639DF8C42F929 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4E76BE2D78F07B07852FAD351F98CAD5 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		4F4758EC137F17AE291DDFFCCEF07B85 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		507AD57090C334BBA22E94CFA52C7F1A /* TheSidebarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TheSidebarController-dummy.m"; sourceTree = "<group>"; };
+		579E90B6508E7B1F790C80184BEFE89B /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D37E30034DD8A99834C1FE24219804 /* SidebarLuvocracyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarLuvocracyAnimation.h; path = TheSidebarController/Animations/SidebarLuvocracyAnimation.h; sourceTree = "<group>"; };
+		582FC94E2C10C9B1CBE44F79067BBC90 /* SidebarAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarAnimation.m; path = TheSidebarController/Animations/SidebarAnimation.m; sourceTree = "<group>"; };
+		5944D3A4720C11A77F204EFCC24B5F17 /* SidebarLuvocracyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarLuvocracyAnimation.m; path = TheSidebarController/Animations/SidebarLuvocracyAnimation.m; sourceTree = "<group>"; };
+		5A40CF000CC95539F47F37CB2CCADA1B /* SidebarFacebookAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarFacebookAnimation.m; path = TheSidebarController/Animations/SidebarFacebookAnimation.m; sourceTree = "<group>"; };
+		6255F191E3C95CDB2326971951A9A550 /* TheSidebarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TheSidebarController.m; path = TheSidebarController/TheSidebarController.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6503551BFB4BA8FA8AE1370C27530645 /* SidebarFacebookAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarFacebookAnimation.h; path = TheSidebarController/Animations/SidebarFacebookAnimation.h; sourceTree = "<group>"; };
+		67CD462A0F6723CA20AFEEBD02D38F70 /* SidebarFlipboardAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarFlipboardAnimation.m; path = TheSidebarController/Animations/SidebarFlipboardAnimation.m; sourceTree = "<group>"; };
+		68362D7D44BAB212E244D6D0E6465527 /* SidebarAirbnbAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarAirbnbAnimation.h; path = TheSidebarController/Animations/SidebarAirbnbAnimation.h; sourceTree = "<group>"; };
+		6D6C30C05996BB65274FB1B75DD4DC09 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		80AFB3FD1A728BF13754611C064B6C67 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		876552EB34C0B353CC2293633A195AFA /* TheSidebarController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TheSidebarController-Private.xcconfig"; sourceTree = "<group>"; };
+		89C80E17034167439E74FFD71740317E /* NSArray+JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONModel.h"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		8AF76C2291DBB6B5A164A200323D54DA /* libTheSidebarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTheSidebarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7D6537D2C3DC23A09A08F1E26891BF /* TheSidebarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TheSidebarController.xcconfig; sourceTree = "<group>"; };
+		8EFB82C9553A005C2C50A6D1C6F6366D /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		8FE5055842E848F75BFBD74CB20A224A /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		966C80C6776CF1881195D9EB20A53E1D /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		A9466689AD779316D6E07DC74880B28D /* SidebarAirbnbAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarAirbnbAnimation.m; path = TheSidebarController/Animations/SidebarAirbnbAnimation.m; sourceTree = "<group>"; };
+		B0BB8E47B03056CC8CC88DF36716FFFE /* TheSidebarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TheSidebarController-prefix.pch"; sourceTree = "<group>"; };
+		B380999BDFDA2C452AC70435C710A526 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		BA3E655825D8AC796E6D262908DDF937 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFB5752A1899778A704F021D74D11359 /* TheSidebarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TheSidebarController.h; path = TheSidebarController/TheSidebarController.h; sourceTree = "<group>"; };
+		C03B79647C42C22414969EE92C4081D6 /* SidebarFeedlyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarFeedlyAnimation.m; path = TheSidebarController/Animations/SidebarFeedlyAnimation.m; sourceTree = "<group>"; };
+		C5D8DCE51425E84C6009E89C3AED21A0 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		CBF09E42BA8CB0EA01B3CE2D9A25FBCA /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		CDC06B99C83F9901E454D88B93C6082E /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		D4A46E13E3A14A226296B0FEBEBC54DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A59DDBEAD89B1AFFB7E84BA98C2F90 /* JSONModel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JSONModel-Private.xcconfig"; sourceTree = "<group>"; };
+		DF7E241195F91CB9D9027BE9D63AE0E9 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		E35AB02E9C230425536FF7495B78028D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		E7B7849CDFD77FFD17E9CFBC06887C01 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
+		E7CCC978018997BF62C923577A1EDABA /* SidebarFeedlyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarFeedlyAnimation.h; path = TheSidebarController/Animations/SidebarFeedlyAnimation.h; sourceTree = "<group>"; };
+		E9FF0EE0AECD94114456CC423794DB75 /* SidebarFlipboardAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SidebarFlipboardAnimation.h; path = TheSidebarController/Animations/SidebarFlipboardAnimation.h; sourceTree = "<group>"; };
+		F1864CC29EFB21F992CFF644DFDDF232 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		F28354428C4AAF582B4B329174F43CCF /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		F34F5A132BD3496F22D4E058EB1F960B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F5EC5FA115834249B5980049635D1011 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		F9853553887856251C0233ED3B5E83F1 /* SidebarWunderlistAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SidebarWunderlistAnimation.m; path = TheSidebarController/Animations/SidebarWunderlistAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC86DCED360B84C8470A762CB1A5C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62763B919BB9810C741D5168B3B6BE6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9258FDC44A92F410A6CD3EA54F0310F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E4D15EF6E96A903F032D7C0EF17ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA304F671C5885BA72B7DD04A22C7067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8525440CBBC203DE3757B08F3ABB08F5 /* Foundation.framework in Frameworks */,
+				B8881BD1A07D1F11A40FD1BB8459B7C3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4616BFD05EF75A4C72E1184FA379137F /* Foundation.framework */,
+				F34F5A132BD3496F22D4E058EB1F960B /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		206661BA6781169C194EE62DFC10E437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B7D6537D2C3DC23A09A08F1E26891BF /* TheSidebarController.xcconfig */,
+				876552EB34C0B353CC2293633A195AFA /* TheSidebarController-Private.xcconfig */,
+				507AD57090C334BBA22E94CFA52C7F1A /* TheSidebarController-dummy.m */,
+				B0BB8E47B03056CC8CC88DF36716FFFE /* TheSidebarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TheSidebarController";
+			sourceTree = "<group>";
+		};
+		24FF67F46C8FD8B6D055F1BC93BCDDCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C629108B299B63A6B57083D273EC1BC /* JSONModel.xcconfig */,
+				D6A59DDBEAD89B1AFFB7E84BA98C2F90 /* JSONModel-Private.xcconfig */,
+				BA3E655825D8AC796E6D262908DDF937 /* JSONModel-dummy.m */,
+				F1864CC29EFB21F992CFF644DFDDF232 /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F706E6C4567CCB9C5E8B072101680CA /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E471A3D7705A5CF057465A3D91712AE /* JSONAPI.h */,
+				F5EC5FA115834249B5980049635D1011 /* JSONAPI.m */,
+				CBF09E42BA8CB0EA01B3CE2D9A25FBCA /* JSONHTTPClient.h */,
+				966C80C6776CF1881195D9EB20A53E1D /* JSONHTTPClient.m */,
+				8FE5055842E848F75BFBD74CB20A224A /* JSONKeyMapper.h */,
+				8EFB82C9553A005C2C50A6D1C6F6366D /* JSONKeyMapper.m */,
+				CDC06B99C83F9901E454D88B93C6082E /* JSONModel.h */,
+				80AFB3FD1A728BF13754611C064B6C67 /* JSONModel.m */,
+				F28354428C4AAF582B4B329174F43CCF /* JSONModel+networking.h */,
+				C5D8DCE51425E84C6009E89C3AED21A0 /* JSONModel+networking.m */,
+				1BF0718807F76EA527DDDC8A5DB36F17 /* JSONModelArray.h */,
+				E7B7849CDFD77FFD17E9CFBC06887C01 /* JSONModelArray.m */,
+				4E76BE2D78F07B07852FAD351F98CAD5 /* JSONModelClassProperty.h */,
+				B380999BDFDA2C452AC70435C710A526 /* JSONModelClassProperty.m */,
+				4F4758EC137F17AE291DDFFCCEF07B85 /* JSONModelError.h */,
+				025506A023C98258C2A93B111AC4ADC0 /* JSONModelError.m */,
+				DF7E241195F91CB9D9027BE9D63AE0E9 /* JSONModelLib.h */,
+				39C9C848EC925195BD95A7F54715DF2E /* JSONValueTransformer.h */,
+				6D6C30C05996BB65274FB1B75DD4DC09 /* JSONValueTransformer.m */,
+				89C80E17034167439E74FFD71740317E /* NSArray+JSONModel.h */,
+				03069614DDF0747DE8BB1C3B84860FE7 /* NSArray+JSONModel.m */,
+				24FF67F46C8FD8B6D055F1BC93BCDDCA /* Support Files */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B8C63D6C38A27E72B485D0F1E1AF32DB /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				36EF5CE45FFEC89E0AC2A4A493964807 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				E35AB02E9C230425536FF7495B78028D /* Pods.debug.xcconfig */,
+				4781B70137E6C21A6C6639DF8C42F929 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B8C63D6C38A27E72B485D0F1E1AF32DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F706E6C4567CCB9C5E8B072101680CA /* JSONModel */,
+				D047171B8D3E019172107D8A017189E6 /* TheSidebarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579E90B6508E7B1F790C80184BEFE89B /* libJSONModel.a */,
+				D4A46E13E3A14A226296B0FEBEBC54DF /* libPods.a */,
+				8AF76C2291DBB6B5A164A200323D54DA /* libTheSidebarController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D047171B8D3E019172107D8A017189E6 /* TheSidebarController */ = {
+			isa = PBXGroup;
+			children = (
+				68362D7D44BAB212E244D6D0E6465527 /* SidebarAirbnbAnimation.h */,
+				A9466689AD779316D6E07DC74880B28D /* SidebarAirbnbAnimation.m */,
+				191A6F031C512EAA01743FD066FD124F /* SidebarAnimation.h */,
+				582FC94E2C10C9B1CBE44F79067BBC90 /* SidebarAnimation.m */,
+				6503551BFB4BA8FA8AE1370C27530645 /* SidebarFacebookAnimation.h */,
+				5A40CF000CC95539F47F37CB2CCADA1B /* SidebarFacebookAnimation.m */,
+				E7CCC978018997BF62C923577A1EDABA /* SidebarFeedlyAnimation.h */,
+				C03B79647C42C22414969EE92C4081D6 /* SidebarFeedlyAnimation.m */,
+				E9FF0EE0AECD94114456CC423794DB75 /* SidebarFlipboardAnimation.h */,
+				67CD462A0F6723CA20AFEEBD02D38F70 /* SidebarFlipboardAnimation.m */,
+				57D37E30034DD8A99834C1FE24219804 /* SidebarLuvocracyAnimation.h */,
+				5944D3A4720C11A77F204EFCC24B5F17 /* SidebarLuvocracyAnimation.m */,
+				3DA8C71EBE0188CBB2E0DF8147D9517D /* SidebarWunderlistAnimation.h */,
+				F9853553887856251C0233ED3B5E83F1 /* SidebarWunderlistAnimation.m */,
+				BFB5752A1899778A704F021D74D11359 /* TheSidebarController.h */,
+				6255F191E3C95CDB2326971951A9A550 /* TheSidebarController.m */,
+				206661BA6781169C194EE62DFC10E437 /* Support Files */,
+			);
+			path = TheSidebarController;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44F6C388393523C6C7E2C89986AEA5C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4503C77A863B96E8C0AA278FC9595772 /* JSONAPI.h in Headers */,
+				C73E3FACBB67F24718CA9F1D88148162 /* JSONHTTPClient.h in Headers */,
+				024D665D36C20F59EFB1C29C68534B72 /* JSONKeyMapper.h in Headers */,
+				77EACEC15AF5450F43D3F980C7BD68ED /* JSONModel+networking.h in Headers */,
+				65ECF33DA524107FC927808284A98C34 /* JSONModel.h in Headers */,
+				0BC7AE7702889DADB3AA13B7D4518A6B /* JSONModelArray.h in Headers */,
+				0F9134C2268208D3AD1642C6889FCA92 /* JSONModelClassProperty.h in Headers */,
+				2E4FE14B51643E88E1CC0A2953D01F09 /* JSONModelError.h in Headers */,
+				29019B4ED2797AF4532BFE52B12E2C96 /* JSONModelLib.h in Headers */,
+				8CBB6198EE6BA280852C6659D8553023 /* JSONValueTransformer.h in Headers */,
+				02FBBB8CAC770ACCD66EA0EE79A13CDC /* NSArray+JSONModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66730580B0045EE4334960476AF0FC68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B0AF39892DFCB7609886CE3E4E8338 /* SidebarAirbnbAnimation.h in Headers */,
+				A67E5BF7965D04A12FA01C1B996046EF /* SidebarAnimation.h in Headers */,
+				4660E11986FB84C73C40025B9DA113FC /* SidebarFacebookAnimation.h in Headers */,
+				2C0B97602C4BC2790385D2CC1324410C /* SidebarFeedlyAnimation.h in Headers */,
+				F0F025353A79744EFC2FED138572284D /* SidebarFlipboardAnimation.h in Headers */,
+				F3B5A0E05816B1EC5BB5DC5130ED4252 /* SidebarLuvocracyAnimation.h in Headers */,
+				4906BE25FB4083C663A491186DA33606 /* SidebarWunderlistAnimation.h in Headers */,
+				09F8823AFD877C3783091B22BCBBBF18 /* TheSidebarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3415A5790FF7A6C7EF81899760150B4C /* TheSidebarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464BB29DEBE8479CF868B442789273AF /* Build configuration list for PBXNativeTarget "TheSidebarController" */;
+			buildPhases = (
+				CA6386E20EB63E73F48A8A6B0C21BFFE /* Sources */,
+				EA304F671C5885BA72B7DD04A22C7067 /* Frameworks */,
+				66730580B0045EE4334960476AF0FC68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSidebarController;
+			productName = TheSidebarController;
+			productReference = 8AF76C2291DBB6B5A164A200323D54DA /* libTheSidebarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C01EEB6F0300D163BBDB0697390316E1 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6B03ED43BE8DAA87C14C9063CEECC0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				45265F71EC447DA0E1DEE7858B25634B /* Sources */,
+				9258FDC44A92F410A6CD3EA54F0310F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21ABDA926A1AB0D405409EFEEB14928 /* PBXTargetDependency */,
+				2CD227B1214006AF8849CCC29FC77433 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = D4A46E13E3A14A226296B0FEBEBC54DF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB36203D275715A7D55491EA4DEA0228 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E333D432C646292048D6E6F1A776D451 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				2BD53D2DEE2ECEB97D58608D9EF0F842 /* Sources */,
+				2AC86DCED360B84C8470A762CB1A5C4E /* Frameworks */,
+				44F6C388393523C6C7E2C89986AEA5C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = 579E90B6508E7B1F790C80184BEFE89B /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB36203D275715A7D55491EA4DEA0228 /* JSONModel */,
+				C01EEB6F0300D163BBDB0697390316E1 /* Pods */,
+				3415A5790FF7A6C7EF81899760150B4C /* TheSidebarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD53D2DEE2ECEB97D58608D9EF0F842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3C7FF17DE8306D7D674166D4B701C0 /* JSONAPI.m in Sources */,
+				21E65C0A7A2003415FBA3C0467AD8D99 /* JSONHTTPClient.m in Sources */,
+				7587EF6FF24B4D3DE9E317D65E701506 /* JSONKeyMapper.m in Sources */,
+				9CAED1CA271F37823A3861751F6F5DF8 /* JSONModel+networking.m in Sources */,
+				B06FB2F5B446F145B6211C5C68A2C299 /* JSONModel-dummy.m in Sources */,
+				A135F0A056C1073BC2620A3563A344E2 /* JSONModel.m in Sources */,
+				E7428F635C86D37360BFFD83112DCA82 /* JSONModelArray.m in Sources */,
+				A8F7F3FC7E2937DD88FE8DC8477E6F5B /* JSONModelClassProperty.m in Sources */,
+				DDCBC87617ACD8F29663C08B5647716C /* JSONModelError.m in Sources */,
+				D5DCD181474A8BF3B416EB2EEEFECE0B /* JSONValueTransformer.m in Sources */,
+				9E02DB7A5DD9BD587833884751C93DC8 /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45265F71EC447DA0E1DEE7858B25634B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0162030BFF498DD824FFD66844780E67 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6386E20EB63E73F48A8A6B0C21BFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AC9C84DC3BF2A8905B4E58F3AD5FD /* SidebarAirbnbAnimation.m in Sources */,
+				3FA7EC45299CA66E1513343B64BCED25 /* SidebarAnimation.m in Sources */,
+				D7A419F0D2C42A14AC9F410CC8922C6F /* SidebarFacebookAnimation.m in Sources */,
+				612E638A3476042E4C2361036EB8BD7C /* SidebarFeedlyAnimation.m in Sources */,
+				8143A4118BEC30F2A26BB2E3C0A5F57D /* SidebarFlipboardAnimation.m in Sources */,
+				2926B46ECB68DC92D28C783FDD2386BF /* SidebarLuvocracyAnimation.m in Sources */,
+				B8C8E1837D85AEBB9A9570B70638AE69 /* SidebarWunderlistAnimation.m in Sources */,
+				E11C2037E6F7DC4C257FEF9D5E2A52AC /* TheSidebarController-dummy.m in Sources */,
+				82F33F10C078B517DB84871CAA717E93 /* TheSidebarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD227B1214006AF8849CCC29FC77433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TheSidebarController;
+			target = 3415A5790FF7A6C7EF81899760150B4C /* TheSidebarController */;
+			targetProxy = 6E46DCAFA3BF0C1427ACB7C891585986 /* PBXContainerItemProxy */;
+		};
+		E21ABDA926A1AB0D405409EFEEB14928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = DB36203D275715A7D55491EA4DEA0228 /* JSONModel */;
+			targetProxy = D641B94BF2492937F24F76AD8863F270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174BD66EE8AA5F92B70EA03592CA6C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876552EB34C0B353CC2293633A195AFA /* TheSidebarController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TheSidebarController/TheSidebarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24D407EC9FBADD9A02425CA971AB27FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A59DDBEAD89B1AFFB7E84BA98C2F90 /* JSONModel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2EF38DDFD50E64E8615BCE2778742BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876552EB34C0B353CC2293633A195AFA /* TheSidebarController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TheSidebarController/TheSidebarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4378FB36D85FD9F133C1151E41EC7F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35AB02E9C230425536FF7495B78028D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C19F89CF81A9686DB623E58999C9A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A59DDBEAD89B1AFFB7E84BA98C2F90 /* JSONModel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE25EFEF059164DA051F718E3B5FA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4781B70137E6C21A6C6639DF8C42F929 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464BB29DEBE8479CF868B442789273AF /* Build configuration list for PBXNativeTarget "TheSidebarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174BD66EE8AA5F92B70EA03592CA6C72 /* Debug */,
+				2EF38DDFD50E64E8615BCE2778742BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6B03ED43BE8DAA87C14C9063CEECC0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378FB36D85FD9F133C1151E41EC7F96 /* Debug */,
+				AE25EFEF059164DA051F718E3B5FA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E333D432C646292048D6E6F1A776D451 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C19F89CF81A9686DB623E58999C9A13 /* Debug */,
+				24D407EC9FBADD9A02425CA971AB27FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
